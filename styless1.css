@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+    padding: 20px;
+}
+.container {
+    max-width: 1200;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h2 {
+    color: green;
+}
+h3 {
+    color: blue;
+}
+h4 {
+    color: magenta;
+}
+.section-title {
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+}
+.box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: left;
+}
+.box p, .box ul {
+    margin: 5px 0;
+}
+.box ul {
+    padding-left: 20px;
+}
+.bold {
+    font-weight: bold;
+}
+
+
+
+.section-title {
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+    color: red;
+}
+.bold-text {
+    font-weight: bold;
+    color: purple;
+    text-align: center;
+}
+.highlight-text {
+    color: blue;
+    font-weight: bold;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.section-title {
+    font-weight: bold;
+    color: red;
+    margin-top: 2ch;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+    color: red;
+}
+.link-green {
+    color: green;
+    font-weight: bold;
+}
+.link-pink {
+    color: magenta;
+    font-weight: bold;
+}
+.link-blue {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link-blue:hover {
+    text-decoration: underline;
+}
+
+
+
+.highlight{
+    color: green;
+}
+.important{
+    color: red
+}

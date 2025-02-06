@@ -1,0 +1,181 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #e8f0f8;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f2f6fa;
+            padding: 0.1px 20px;
+            /**border-radius: 10px;**/
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px outset black;
+            background-color: rgb(22, 149, 228);
+            padding: 10px;
+            text-align: center;
+            background: linear-gradient(to bottom, #dee430, #e714e3, #1E90FF);
+            color: #fff;
+        }
+
+        header h1 {
+            font-size: 30px;
+            color: #1e5f9e;
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 15px;
+            
+        }
+        
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #555;
+            font-size: 1rem;
+        }
+
+        .search-bar {
+            display: flex;
+            margin: 15px 0;
+        }
+
+        .search-bar input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px 0 0 8px;
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            background-color: #1e5f9e;
+            color: white;
+            border: none;
+            border-radius: 0 8px 8px 0;
+            cursor: pointer;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .apply-button {
+            display: inline-block;
+            padding: 5px 30px;
+            background-color: #9f0b1e;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .apply-button:hover {
+            background-color: #164a7c;
+        }
+        .grid .card img {
+            width: 100%;
+            height: 150px;
+            border: 1px solid black;
+        }
+        .Home{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            color: white;
+        }
+
+
+
+
+
+
+
+        .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.icon-container img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.icon-container img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 768px) {
+    nav a {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+
+    .search-bar input {
+        width: 70%;
+    }
+
+    .icon-container img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .job-card {
+        padding: 15px;
+    }
+
+    .job-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .job-card p {
+        font-size: 0.8rem;
+    }
+
+    .search-bar input {
+        width: 90%;
+    }
+}
