@@ -137,3 +137,37 @@ th {
 .important{
     color: red
 }
+
+@media screen and (max-width: 768px) {
+    nav a {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+
+    .search-bar input {
+        width: 70%;
+    }
+
+    .icon-container img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .job-card {
+        padding: 15px;
+    }
+
+    .job-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .job-card p {
+        font-size: 0.8rem;
+    }
+
+    .search-bar input {
+        width: 90%;
+    }
+}
